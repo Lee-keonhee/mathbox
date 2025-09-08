@@ -1,0 +1,20 @@
+user.name 설정
+git config user.name " " 
+
+user.email 설정
+git config user.email "  "
+
+커밋 메세지 남기기 
+git commit -m " 메시지"
+
+커밋할 파일 git add로 지정하기
+git add "파일명.확장자"
+
+staging area에서 add한 파일 제거 - 변경된 데이터는 working directory에 그대로 남고, stage에 올린거만 다시 내리는 형식
+git reset "파일명.확장자"
+
+Git은 내부적으로 크게 3개의 작업영역을 두고 동작
+1. working directory - 작업을 하는 프로젝트 디렉토리( 현재 MathTool 디렉토리)
+2. staging area - git add 한 파일들이 존재하는 영역( commit을 하면 해당 영ㅇ역에 있는 파일만 commit에 반영)
+3. repository - working directory의 변경 이력들이 저장된 영역
+
